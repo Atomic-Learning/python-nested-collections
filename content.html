@@ -1,0 +1,64 @@
+
+<p>Lists and dictionaries can be combined in powerful ways: you can store lists as dictionary values, or nest dictionaries inside other dictionaries. This creates flexible data structures for organizing complex information.</p>
+
+<h2>Lists as Dictionary Values</h2>
+
+<p>Since dictionary values can be any type, you can store lists as values:</p>
+
+<py-cell>student = {"name": "Alice", "grades": [90, 85, 92]}
+print(student)
+
+student["subjects"] = ["Math", "English", "Science"]
+print(student)</py-cell>
+
+<p>Each value is a list, so you can access individual items using additional indexing:</p>
+
+<py-cell>student = {"name": "Alice", "grades": [90, 85, 92]}
+
+print(student["grades"])      # Get the list
+print(student["grades"][0])   # Get first grade
+print(student["grades"][-1])  # Get last grade</py-cell>
+
+<p>You can also modify the list values using list methods:</p>
+
+<py-cell>student = {"name": "Alice", "grades": [90, 85]}
+
+student["grades"].append(92)
+print(student)</py-cell>
+
+<h2>Nested Dictionaries</h2>
+
+<p>Dictionaries can also contain other dictionaries as values, creating nested structures:</p>
+
+<py-cell>person = {"name": "Alice"}
+person["address"] = {"city": "New York", "zip": "10001"}
+
+print(person)
+
+print(person["address"]["city"])</py-cell>
+
+<p>To access a value in a nested dictionary, use chained bracket notation: <code>person["address"]["city"]</code>. This reads from the outside in: get the "address" value from person, then get the "city" value from that dictionary.</p>
+
+<h2>Practical Example: Building More Complex Data</h2>
+
+<p>Nested collections are useful for organizing real-world data. Here's an example of a book database:</p>
+
+<py-cell>library = {
+    "book1": {
+        "title": "Python Basics",
+        "author": "Jane Smith",
+        "pages": 350,
+        "tags": ["programming", "python", "beginner"]
+    },
+    "book2": {
+        "title": "Web Development",
+        "author": "John Doe",
+        "pages": 420,
+        "tags": ["web", "javascript", "html"]
+    }
+}
+
+print(library["book1"]["title"])
+print(library["book1"]["tags"][0])</py-cell>
+
+<p>This structure combines dictionaries (for labeled data) and lists (for ordered collections) to organize information hierarchically.</p>

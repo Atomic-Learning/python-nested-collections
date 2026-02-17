@@ -1,0 +1,20 @@
+{
+    "title": "Python: Nested Collections",
+    "slug": "python-nested-collections",
+    "description": "Combining lists and dictionaries by storing lists as dictionary values and nesting dictionaries within dictionaries to create flexible, hierarchical data structures.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 7,
+    "prerequisites": [
+        "python-lists-item-assignment",
+        "python-dictionaries-item-assignment"
+    ],
+    "related": [
+        "exercise-python-dictionary-address-book",
+        "python-lists-concatenation-shared-references"
+    ]
+}
