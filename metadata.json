@@ -11,7 +11,7 @@
     "duration": 7,
     "prerequisites": [
         "python-lists-item-assignment",
-        "python-dictionaries-item-assignment"
+        "python-dictionaries-item-adding-updating-key-value-pairs"
     ],
     "related": [
         "exercise-python-dictionary-address-book",
