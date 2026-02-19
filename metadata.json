@@ -8,7 +8,7 @@
     "tags": [
         "python"
     ],
-    "duration": 7,
+    "duration": 4,
     "prerequisites": [
         "python-item-assignment",
         "python-dictionaries-item-adding-updating-key-value-pairs"
