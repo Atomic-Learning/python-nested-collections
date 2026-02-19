@@ -14,8 +14,8 @@
         "python-dictionaries-item-adding-updating-key-value-pairs"
     ],
     "related": [
-        "exercise-python-dictionary-address-book",
         "example-python-library-nested-collections",
-        "python-concatenation-shared-references"
+        "exercise-python-dictionary-address-book",
+        "python-list-concatenation-shared-references"
     ]
 }
