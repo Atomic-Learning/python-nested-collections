@@ -10,7 +10,7 @@
     ],
     "duration": 7,
     "prerequisites": [
-        "python-lists-item-assignment",
+        "python-item-assignment",
         "python-dictionaries-item-adding-updating-key-value-pairs"
     ],
     "related": [
