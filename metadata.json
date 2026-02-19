@@ -15,6 +15,7 @@
     ],
     "related": [
         "exercise-python-dictionary-address-book",
+        "example-python-library-nested-collections",
         "python-concatenation-shared-references"
     ]
 }
