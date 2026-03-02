@@ -16,6 +16,7 @@
     "related": [
         "example-python-library-nested-collections",
         "exercise-python-dictionary-address-book",
-        "python-list-concatenation-shared-references"
+        "python-list-concatenation-shared-references",
+        "python-nested-for-loops"
     ]
 }
